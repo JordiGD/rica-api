@@ -1,7 +1,7 @@
 package com.rica.rica_api.mapper;
 
-import com.rica.rica_api.InvestigadorRequest;
-import com.rica.rica_api.InvestigadorResponse;
+import com.rica.rica_api.DTO.InvestigadorRequest;
+import com.rica.rica_api.DTO.InvestigadorResponse;
 import com.rica.rica_api.model.Investigador;
 
 public class InvestigadorMapper {

@@ -1,4 +1,4 @@
-package com.rica.rica_api;
+package com.rica.rica_api.DTO;
 
 
 import jakarta.validation.constraints.Email;

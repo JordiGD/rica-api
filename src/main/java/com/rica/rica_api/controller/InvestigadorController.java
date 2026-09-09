@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rica.rica_api.InvestigadorRequest;
-import com.rica.rica_api.InvestigadorResponse;
+import com.rica.rica_api.DTO.InvestigadorRequest;
+import com.rica.rica_api.DTO.InvestigadorResponse;
 import com.rica.rica_api.mapper.InvestigadorMapper;
 import com.rica.rica_api.model.Investigador;
 import com.rica.rica_api.services.InvestigadorService;
