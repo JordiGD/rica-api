@@ -1,4 +1,4 @@
-package com.rica.rica_api.controller;
+package com.rica.rica_api.compartido;
 
 import java.time.LocalDateTime;
 import java.util.LinkedHashMap;
@@ -10,8 +10,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.rica.rica_api.rules.CorreoDuplicadoException;
-import com.rica.rica_api.rules.RecursoNoEncontradoException;
+import com.rica.rica_api.investigadores.CorreoDuplicadoException;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

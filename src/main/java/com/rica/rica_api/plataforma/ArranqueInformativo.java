@@ -1,9 +1,7 @@
-package com.rica.rica_api.components;
+package com.rica.rica_api.plataforma;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
-import com.rica.rica_api.services.SaludoInstitucionalService;
 
 @Component
 public class ArranqueInformativo implements CommandLineRunner {

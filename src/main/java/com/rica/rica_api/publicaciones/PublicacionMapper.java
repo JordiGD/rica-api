@@ -1,8 +1,4 @@
-package com.rica.rica_api.mapper;
-
-import com.rica.rica_api.DTO.PublicacionRequest;
-import com.rica.rica_api.DTO.PublicacionResponse;
-import com.rica.rica_api.model.Publicacion;
+package com.rica.rica_api.publicaciones;
 
 public class PublicacionMapper {
 
