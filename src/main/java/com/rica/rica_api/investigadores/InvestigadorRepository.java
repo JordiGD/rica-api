@@ -1,8 +1,6 @@
-package com.rica.rica_api.repository;
+package com.rica.rica_api.investigadores;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.rica.rica_api.model.Investigador;
 
 public interface InvestigadorRepository extends JpaRepository<Investigador, Long> {
 

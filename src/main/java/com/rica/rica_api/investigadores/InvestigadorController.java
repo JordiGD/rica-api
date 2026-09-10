@@ -1,4 +1,4 @@
-package com.rica.rica_api.controller;
+package com.rica.rica_api.investigadores;
 
 import java.net.URI;
 import java.util.List;
@@ -10,12 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.rica.rica_api.DTO.InvestigadorRequest;
-import com.rica.rica_api.DTO.InvestigadorResponse;
-import com.rica.rica_api.mapper.InvestigadorMapper;
-import com.rica.rica_api.model.Investigador;
-import com.rica.rica_api.services.InvestigadorService;
 
 import jakarta.validation.Valid;
 

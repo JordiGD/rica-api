@@ -1,4 +1,4 @@
-package com.rica.rica_api.DTO;
+package com.rica.rica_api.investigadores;
 
 public class InvestigadorResponse {
     

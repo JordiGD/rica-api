@@ -1,4 +1,4 @@
-package com.rica.rica_api.DTO;
+package com.rica.rica_api.publicaciones;
 
 import java.util.Map;
 
