@@ -11,7 +11,7 @@ public class PublicacionRequest {
     @NotBlank (message = "El id es obligatorio")
     private String id;
     @NotBlank (message = "El correo del investigador es obligatorio")
-    private String investigadorCorrreo;
+    private String investigadorCorreo;
     @NotBlank (message = "El título es obligatorio")
     private String titulo;
     @NotBlank (message = "El tipo es obligatorio")
@@ -31,12 +31,12 @@ public class PublicacionRequest {
         this.id = id;
     }
 
-    public String getInvestigadorCorrreo() {
-        return investigadorCorrreo;
+    public String getInvestigadorCorreo() {
+        return investigadorCorreo;
     }
 
-    public void setInvestigadorCorrreo(String investigadorCorrreo) {
-        this.investigadorCorrreo = investigadorCorrreo;
+    public void setInvestigadorCorreo(String investigadorCorreo) {
+        this.investigadorCorreo = investigadorCorreo;
     }
 
     public String getTitulo() {

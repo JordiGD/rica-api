@@ -5,7 +5,7 @@ import java.util.Map;
 public class PublicacionResponse {
 
     private String id;
-    private String investigadorCorrreo;
+    private String investigadorCorreo;
     private String titulo;
     private String tipo;
     private Integer anio;
@@ -14,9 +14,9 @@ public class PublicacionResponse {
     public PublicacionResponse() {
     }
 
-    public PublicacionResponse(String id, String investigadorCorrreo, String titulo, String tipo, Integer anio, Map<String, String> detalles) {
+    public PublicacionResponse(String id, String investigadorCorreo, String titulo, String tipo, Integer anio, Map<String, String> detalles) {
         this.id = id;
-        this.investigadorCorrreo = investigadorCorrreo;
+        this.investigadorCorreo = investigadorCorreo;
         this.titulo = titulo;
         this.tipo = tipo;
         this.anio = anio;
@@ -31,12 +31,12 @@ public class PublicacionResponse {
         this.id = id;
     }
 
-    public String getInvestigadorCorrreo() {
-        return investigadorCorrreo;
+    public String getInvestigadorCorreo() {
+        return investigadorCorreo;
     }
 
-    public void setInvestigadorCorrreo(String investigadorCorrreo) {
-        this.investigadorCorrreo = investigadorCorrreo;
+    public void setInvestigadorCorreo(String investigadorCorreo) {
+        this.investigadorCorreo = investigadorCorreo;
     }
 
     public String getTitulo() {

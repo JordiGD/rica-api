@@ -8,7 +8,7 @@ public class InvestigadorMapper {
     public static Investigador aEntidad(InvestigadorRequest request) {
         Investigador investigador = new Investigador();
         investigador.setNombreCompleto(request.getNombreCompleto());
-        investigador.setCorreoinstitucional(request.getCorreoInstitucional());
+        investigador.setCorreoinstitucional(new CorreoInstitucional(request.getCorreoInstitucional()));
         investigador.setGrupoInvestigacion(request.getGrupoInvestigacion());
         return investigador;
     }

@@ -1,6 +1,8 @@
 package com.rica.rica_api.investigadores;
 
+import jakarta.persistence.AttributeOverride;
 import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,15 +18,17 @@ public class Investigador {
     private Long id;
     @Column(name = "nombre_completo", nullable = false, length = 150)
     private String nombreCompleto;
-    @Column(name = "correo_institucional", nullable = false, unique = true, length = 150)
-    private String correoinstitucional;
+    @Embedded
+    @AttributeOverride(name = "valor", 
+    column = @Column(name = "correo_institucional", nullable = false, unique = true, length = 150)) 
+    private CorreoInstitucional correoinstitucional;
     @Column(name = "grupo_investigacion", nullable = false, length = 150)
     private String grupoInvestigacion;
 
     public Investigador() {
     }
 
-    public Investigador(Long id, String nombreCompleto, String correoinstitucional, String grupoInvestigacion) {
+    public Investigador(Long id, String nombreCompleto, CorreoInstitucional correoinstitucional, String grupoInvestigacion) {
         this.id = id;
         this.nombreCompleto = nombreCompleto;
         this.correoinstitucional = correoinstitucional;
@@ -47,11 +51,11 @@ public class Investigador {
         this.nombreCompleto = nombreCompleto;
     }
 
-    public String getCorreoinstitucional() {
+    public CorreoInstitucional getCorreoinstitucional() {
         return correoinstitucional;
     }
 
-    public void setCorreoinstitucional(String correoinstitucional) {
+    public void setCorreoinstitucional(CorreoInstitucional correoinstitucional) {
         this.correoinstitucional = correoinstitucional;
     }
 

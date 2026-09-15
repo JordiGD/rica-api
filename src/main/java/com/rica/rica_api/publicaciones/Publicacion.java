@@ -11,7 +11,7 @@ public class Publicacion {
     @Id 
     private String id;
 
-    private String investigadorCorrreo;
+    private String investigadorCorreo;
     private String titulo;
     private String tipo;
     private Integer anio;
@@ -28,14 +28,14 @@ public class Publicacion {
         this.id = id;
     }
 
-    public String getInvestigadorCorrreo() {
-        return investigadorCorrreo;
+    public String getInvestigadorCorreo() {
+        return investigadorCorreo;
     }
 
-    public void setInvestigadorCorrreo(String investigadorCorrreo) {
-        this.investigadorCorrreo = investigadorCorrreo;
+    public void setInvestigadorCorreo(String investigadorCorreo) {
+        this.investigadorCorreo = investigadorCorreo;
     }
-
+    
     public String getTitulo() {
         return titulo;
     }
